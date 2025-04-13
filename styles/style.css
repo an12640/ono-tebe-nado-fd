@@ -69,11 +69,10 @@
   position: relative;
   margin-top: -4px;
   padding: 165px 50px 207px 50px; 
-
 }
 
 
-h1 {
+.cover__title {
   position: relative;
   z-index: 2;
   font-family: Raleway;
@@ -87,15 +86,18 @@ h1 {
 
 .aligned-text {
   display: block; 
-  width: 100%;     
+  width: 100%; 
 }
 
 .aligned-text_center {
   text-align: center;
+  line-height: 156px;
+  padding-left: 30px;
 }
 
 .aligned-text_right {
   text-align: right;
+  padding-left: 614px;
 }
 
 .overlay {
