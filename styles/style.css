@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 
 .body {
   background: #ffffff;
@@ -10,22 +13,30 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 50px 92px;
+  padding: 92px 50px 96px 50px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
 }
 
 .header__links-list {
   display: flex;
   column-gap: 32px;
   list-style: circle;
+  padding-bottom: 4px;
+  padding-left: 2px;
 }
 
 .header__links-list-item-active {
   list-style: none;
+  padding-left: 0px;
 }
 
 .header__link {
   text-decoration: underline;
   text-underline-offset: 4px;
+ 
 }
 
 .header__link-active {
@@ -34,20 +45,19 @@
 
 .address {
   max-width: 100%;
-  font-family: Raleway;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
 }
 
 .header__address {
   max-width: 100%;
   justify-self: end;
-  padding-left: 184px;
+  padding-left: 188px;
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
+  padding-bottom: 4px;
+  line-height: 24px;
+
 }
 
 .header__logo-image {
