@@ -69,6 +69,9 @@
   position: relative;
   margin-top: -4px;
   padding: 165px 50px 207px 50px; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -108,4 +111,41 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.cover__description {
+  position: absolute;
+  display: flex;
+  padding-top: 105px;
+  z-index: 2;
+  gap: 106px;
+  align-items: center;
+}
+
+.cover__description-text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  word-spacing: 19px;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.bet-button {
+  color: white;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 12px 32px;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: 1px solid white;
+}
+
+.bet-button:active {
+  transform: scale(1.02);
 }
