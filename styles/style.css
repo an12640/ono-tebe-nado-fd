@@ -33,7 +33,8 @@
 
 .header__link,
 .contacts__link {
-  text-decoration: underline;
+  text-decoration: underline;  text-decoration: none;
+  color: inherit;
   text-underline-offset: 4px;
 }
 
@@ -166,19 +167,29 @@
   list-style: none;
 }
 
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+  
+}
+
 .card {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   column-gap: 25px;
-  width: 334px;
-  min-height: 596px;
+  height: 100%;
   margin-top: 27px;
   padding: 48px 40px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.card-link {
+  text-decoration: none;
+  height: 100%;
 }
 
 .card__title {
@@ -221,7 +232,7 @@
 
 .lots__look-more-link {
   display: inline-block;
-  padding-top: 32px;
+  padding-top: 59px;
   padding-left: 40px;
   color: black;
   font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
