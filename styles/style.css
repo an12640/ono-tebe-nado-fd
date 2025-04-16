@@ -12,8 +12,9 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px 50px;
-  font-family: Raleway;
+  /* заменила */
+  padding: 92px 50px 93px 50px;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -49,7 +50,7 @@
   max-width: 100%;
   padding-bottom: 4px;
   padding-left: 186px;
-  font-family: Raleway;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -63,8 +64,7 @@
 
 .cover {
   position: relative;
-  margin-top: -4px;
-  padding: 165px 50px 207px 50px;
+  padding: 165px 50px 50px 50px;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -75,7 +75,7 @@
   position: relative;
   z-index: 2;
   color: white;
-  font-family: Raleway;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 700;
   font-size: 100px;
   font-style: normal;
@@ -110,7 +110,7 @@
 }
 
 .cover__description {
-  position: absolute;
+  position: relative;
   z-index: 2;
   display: flex;
   align-items: center;
@@ -120,7 +120,7 @@
 
 .cover__description-text {
   color: #FFFFFF;
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
@@ -133,9 +133,9 @@
   border: none;
   padding: 12px 32px;
   box-shadow: none;
-  outline: 1px solid white;
+  outline: 1px solid currentColor;
   color: white;
-  font-family: Raleway;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
@@ -152,7 +152,7 @@
 
 .lots__heading {
   padding-left: 40px;
-  font-family: Raleway;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 700;
   font-size: 40px;
 }
@@ -176,13 +176,16 @@
   min-height: 596px;
   margin-top: 27px;
   padding: 48px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card__title {
   position: relative;
   z-index: 2;
   color: white;
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 700;
   font-size: 22px;
   font-style: normal;
@@ -197,7 +200,7 @@
   z-index: 2;
   margin-top: auto;
   color: white;
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -205,27 +208,15 @@
 }
 
 .card_type_film {
-  position: relative;
   background-image: url("../images/card-lot-01.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
-  position: relative;
   background-image: url("../images/card-lot-02.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
-  position: relative;
   background-image: url("../images/card-lot-03.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .lots__look-more-link {
@@ -233,7 +224,7 @@
   padding-top: 32px;
   padding-left: 40px;
   color: black;
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -268,7 +259,7 @@
 
 .about__title {
   padding-top: 101px;
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -283,7 +274,7 @@
   padding-top: 100px;
   padding-right: 27px;
   color: black;
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -295,7 +286,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 180px;
   padding: 1px 50px 82px 50px;
-  font-family: Raleway;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -304,7 +295,7 @@
 .footer__address {
   max-width: 100%;
   padding-bottom: 4px;
-  font-family: Raleway;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
