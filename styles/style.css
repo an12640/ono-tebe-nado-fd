@@ -33,7 +33,7 @@
 
 .header__link,
 .contacts__link {
-  text-decoration: underline;  text-decoration: none;
+  text-decoration: underline;
   color: inherit;
   text-underline-offset: 4px;
 }
@@ -170,7 +170,6 @@
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
-  
 }
 
 .card {
